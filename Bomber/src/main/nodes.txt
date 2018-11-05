@@ -1,0 +1,24 @@
+//odchadzajuce udaje po pripojeni
+nick
+farba
+
+
+//prichadzajuce udaju po pripojení
+1-block size 
+2-map
+ - -blockType x,y
+3-otherPlayers
+ - -color x,y
+4-myPlayer set position
+
+//typy prichádzajucich príkazov
+playerMove pos, dopocita offset
+playerHit life
+enemeyMove 
+blockDestroy
+bombAdd
+
+//
+Player draw color(r,g,b), position(x,y), offset(x,y)
+Block draw type, position(x,y), offset(x,y)
+Bomb draw type, position(x,y), offset(x,y)
